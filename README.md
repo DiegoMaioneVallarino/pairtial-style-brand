@@ -1,4 +1,4 @@
-# Pairtial Style Brand — 0.4.0
+# Pairtial Style Brand — 0.4.2
 
 Catálogo unificado de 91 estilos: los 49 originales y 42 incorporados del archivo visual. React + TypeScript + Vite y servidor Node. Un solo catálogo; cada tarjeta conserva la versión de origen. Colores, gradientes y tokens son referencias independientes de los 91 ejemplos.
 
@@ -73,3 +73,27 @@ La sección Implementaciones → Ejemplos contiene siete composiciones React int
 - Product access: navegación, selección de producto y acciones de acceso ficticias.
 
 `src/Examples.tsx` contiene los componentes y su comportamiento local, `src/examples.css` contiene únicamente el layout y ajustes de escala/contexto de las composiciones, `src/examples.json` contiene sus metadatos y referencias al catálogo. `GET /api/examples` devuelve estos metadatos. Los 91 estilos y los archivos CSS de la librería permanecen idénticos a v0.3.4. No se incluyen fuentes OTF.
+
+## v0.4.1 — Compositions expanded
+
+13 demos locales: siete ejemplos existentes con datos generales y seis nuevas composiciones (tienda, presupuesto, casa inteligente, tareas, agenda y mezclador visual). Los datos son ficticios y no se conectan a servicios, dispositivos ni reproducción de audio. `src/NewExamples.tsx` y `src/new-examples.css` contienen las nuevas composiciones. Los 91 estilos CSS y el catálogo se conservan sin cambios.
+
+## v0.4.2 — Creative compositions
+
+28 demostraciones (13 anteriores + 15 nuevas), 91 estilos aprobados sin cambios. Las nuevas interfaces están implementadas en `src/CreativeExamples.tsx` y su layout en `src/creative-examples.css`. Todas operan localmente, con datos ficticios e ilustraciones SVG originales; no requieren servicios ni realizan operaciones reales.
+
+- **Laboratorio fotográfico**: Ajusta exposición, contraste, monocromo y guías de una ilustración de paisaje.
+- **Estudio de arquitectura**: Explora un plano, selecciona habitaciones y modifica la escala y las cotas.
+- **Viajes en tren**: Compara itinerarios ficticios, elige asiento y pasajeros, y calcula el precio de prueba.
+- **Colección de arte**: Explora obras abstractas originales de demostración, consulta sus fichas y guarda favoritas.
+- **Estación de café**: Configura dosis, agua y temperatura de una receta de café; consulta su proporción.
+- **Instrumentos de conducción**: Explora un velocímetro simulado, modos de conducción y el control de luces.
+- **Observatorio nocturno**: Selecciona cuerpos celestes ilustrativos, aumenta la vista y activa la retícula.
+- **Composición editorial**: Edita un cartel tipográfico, alterna pesos, alineación y papel claro u oscuro.
+- **Relojes internacionales**: Explora relojes analógicos y diferencias horarias con una referencia UTC simulada.
+- **Invernadero inteligente**: Selecciona zonas de cultivo y ajusta humedad, iluminación y riego simulados.
+- **Sala de cine**: Elige una función ficticia, selecciona asientos y consulta el importe total.
+- **Centro de envíos**: Busca paquetes ficticios, inspecciona sus etapas de tránsito y cambia preferencias locales.
+- **Secuenciador rítmico**: Construye patrones de ocho pasos, silencia canales y ajusta el tempo visual. No reproduce audio.
+- **Estancias boutique**: Compara habitaciones ilustradas, ajusta noches y huéspedes y calcula una estancia ficticia.
+- **Preparación de impresión**: Ajusta formato, acabado, margen y copias de una prueba gráfica simulada.

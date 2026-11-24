@@ -1,9 +1,9 @@
 [
   {
     "id": "pipeline",
-    "name": "Agent workspace",
+    "name": "Asistente de escritura",
     "category": "Inteligencia artificial",
-    "description": "Selecciona un agente, ajusta sus parámetros y ejecuta una respuesta simulada.",
+    "description": "Organiza ideas, redacta textos y simula una solicitud sobre un plan de viaje.",
     "styles": [
       "exp-tray",
       "exp-orb",
@@ -18,9 +18,9 @@
   },
   {
     "id": "editor",
-    "name": "Visual node editor",
+    "name": "Flujo de pedidos",
     "category": "Herramientas creativas",
-    "description": "Un editor de nodos con selección, conexiones y cambio de espacio de trabajo.",
+    "description": "Edita los pasos de un proceso de compra, desde recibir el pedido hasta enviarlo.",
     "styles": [
       "bg-grid",
       "bg-carbon",
@@ -34,9 +34,9 @@
   },
   {
     "id": "files",
-    "name": "Document library",
+    "name": "Documentos de trabajo",
     "category": "Gestión de archivos",
-    "description": "Tarjetas cromáticas, búsqueda, favoritos y selección de documentos.",
+    "description": "Busca notas, presupuestos y documentos web; selecciónalos o guárdalos como favoritos.",
     "styles": [
       "exp-file",
       "exp-study-chat-search",
@@ -47,9 +47,9 @@
   },
   {
     "id": "services",
-    "name": "Services gallery",
+    "name": "Servicios profesionales",
     "category": "Web y productos",
-    "description": "Una galería de servicios con navegación y dos materiales cromáticos.",
+    "description": "Explora servicios de diseño, tecnología y consultoría, y compara tus favoritos.",
     "styles": [
       "exp-study-service-nav",
       "exp-study-carbon-search",
@@ -60,9 +60,9 @@
   },
   {
     "id": "chat",
-    "name": "Silvana assistant",
+    "name": "Asistente de conversación",
     "category": "Inteligencia artificial",
-    "description": "Conversaciones, selector de iconos y compositor de solicitudes sobre carbón.",
+    "description": "Organiza conversaciones y crea una nueva consulta de ejemplo.",
     "styles": [
       "text-brand",
       "exp-study-chat-search",
@@ -76,9 +76,9 @@
   },
   {
     "id": "colors",
-    "name": "Material & color inspector",
+    "name": "Editor de apariencia",
     "category": "Herramientas creativas",
-    "description": "Combina Smart Colors, controles neumórficos y una vista de material actualizable.",
+    "description": "Experimenta con colores, radio y profundidad de una superficie.",
     "styles": [
       "exp-study-color-field",
       "exp-color",
@@ -92,9 +92,9 @@
   },
   {
     "id": "login",
-    "name": "Product access",
+    "name": "Portal de aplicaciones",
     "category": "Web y productos",
-    "description": "Una entrada de producto con navegación suave, campos y acciones de acceso.",
+    "description": "Selecciona una herramienta de productividad y prueba su formulario de acceso.",
     "styles": [
       "exp-study-landing-nav",
       "exp-study-product-tile-selected",
@@ -104,6 +104,353 @@
       "bg-brand",
       "layer",
       "bg-white"
+    ]
+  },
+  {
+    "id": "shop",
+    "name": "Tienda de accesorios",
+    "category": "Comercio",
+    "description": "Selecciona productos, ajusta cantidades y consulta el total del carrito.",
+    "styles": [
+      "card",
+      "tile-silver",
+      "tile-cyan",
+      "button",
+      "button-orange",
+      "pill",
+      "bg-white",
+      "layer"
+    ]
+  },
+  {
+    "id": "finance",
+    "name": "Presupuesto personal",
+    "category": "Productividad",
+    "description": "Distribuye un presupuesto entre categorías y consulta el dinero disponible.",
+    "styles": [
+      "layer",
+      "sunken",
+      "text-dark",
+      "exp-param",
+      "range",
+      "button-black",
+      "bg-white",
+      "pill"
+    ]
+  },
+  {
+    "id": "home",
+    "name": "Casa inteligente",
+    "category": "Hogar",
+    "description": "Controla luces, temperatura y modos de una vivienda de demostración.",
+    "styles": [
+      "layer-dark",
+      "toggle",
+      "exp-param",
+      "exp-orb",
+      "exp-tray",
+      "button-select",
+      "button-black",
+      "text-light",
+      "bg-carbon",
+      "pill"
+    ]
+  },
+  {
+    "id": "tasks",
+    "name": "Tablero de tareas",
+    "category": "Productividad",
+    "description": "Añade tareas y muévelas entre pendientes, en curso y terminadas.",
+    "styles": [
+      "card",
+      "exp-study-product-tile",
+      "input",
+      "button-black",
+      "button",
+      "pill",
+      "bg-white"
+    ]
+  },
+  {
+    "id": "calendar",
+    "name": "Agenda semanal",
+    "category": "Productividad",
+    "description": "Selecciona un día, añade citas y elimina eventos locales.",
+    "styles": [
+      "layer",
+      "exp-scene",
+      "input",
+      "button-orange",
+      "button",
+      "bg-white",
+      "pill"
+    ]
+  },
+  {
+    "id": "audio",
+    "name": "Consola de audio",
+    "category": "Multimedia",
+    "description": "Prueba un mezclador visual de cuatro canales con volumen, mute y nivel maestro. No reproduce audio.",
+    "styles": [
+      "bg-carbon",
+      "layer-dark",
+      "range",
+      "exp-param",
+      "button-select",
+      "button-black",
+      "pill"
+    ]
+  },
+  {
+    "id": "photo",
+    "name": "Laboratorio fotográfico",
+    "category": "Diseño y cultura",
+    "description": "Ajusta exposición, contraste, monocromo y guías de una ilustración de paisaje.",
+    "styles": [
+      "exp-study-dark-editor",
+      "layer-dark",
+      "range",
+      "exp-param",
+      "toggle",
+      "button-black",
+      "bg-carbon",
+      "bg-brand",
+      "pill"
+    ]
+  },
+  {
+    "id": "architecture",
+    "name": "Estudio de arquitectura",
+    "category": "Diseño y cultura",
+    "description": "Explora un plano, selecciona habitaciones y modifica la escala y las cotas.",
+    "styles": [
+      "bg-grid",
+      "layer",
+      "text-dark",
+      "range",
+      "toggle",
+      "button",
+      "button-black",
+      "bg-white",
+      "bg-brand",
+      "pill"
+    ]
+  },
+  {
+    "id": "rail",
+    "name": "Viajes en tren",
+    "category": "Viajes y experiencias",
+    "description": "Compara itinerarios ficticios, elige asiento y pasajeros, y calcula el precio de prueba.",
+    "styles": [
+      "layer",
+      "button",
+      "button-black",
+      "button-orange",
+      "bg-white",
+      "bg-brand",
+      "pill"
+    ]
+  },
+  {
+    "id": "museum",
+    "name": "Colección de arte",
+    "category": "Diseño y cultura",
+    "description": "Explora obras abstractas originales de demostración, consulta sus fichas y guarda favoritas.",
+    "styles": [
+      "card",
+      "layer",
+      "font-display-medium",
+      "button",
+      "button-black",
+      "bg-white",
+      "bg-brand",
+      "pill"
+    ]
+  },
+  {
+    "id": "coffee",
+    "name": "Estación de café",
+    "category": "Instrumentos y control",
+    "description": "Configura dosis, agua y temperatura de una receta de café; consulta su proporción.",
+    "styles": [
+      "layer-dark",
+      "text-light",
+      "range",
+      "exp-param",
+      "button-select",
+      "button-black",
+      "button-orange",
+      "bg-carbon",
+      "bg-brand",
+      "pill"
+    ]
+  },
+  {
+    "id": "vehicle",
+    "name": "Instrumentos de conducción",
+    "category": "Instrumentos y control",
+    "description": "Explora un velocímetro simulado, modos de conducción y el control de luces.",
+    "styles": [
+      "layer-dark",
+      "exp-param",
+      "toggle",
+      "button-select",
+      "button-black",
+      "bg-carbon",
+      "bg-brand",
+      "pill"
+    ]
+  },
+  {
+    "id": "observatory",
+    "name": "Observatorio nocturno",
+    "category": "Instrumentos y control",
+    "description": "Selecciona cuerpos celestes ilustrativos, aumenta la vista y activa la retícula.",
+    "styles": [
+      "exp-study-dark-editor",
+      "layer-dark",
+      "range",
+      "toggle",
+      "button-select",
+      "button-black",
+      "bg-carbon",
+      "bg-brand",
+      "pill"
+    ]
+  },
+  {
+    "id": "editorial",
+    "name": "Composición editorial",
+    "category": "Diseño y cultura",
+    "description": "Edita un cartel tipográfico, alterna pesos, alineación y papel claro u oscuro.",
+    "styles": [
+      "layer",
+      "font-display-thin",
+      "font-display-regular",
+      "font-display-bold",
+      "input",
+      "range",
+      "toggle",
+      "button",
+      "button-black",
+      "bg-silver",
+      "bg-carbon",
+      "bg-white",
+      "bg-brand",
+      "pill"
+    ]
+  },
+  {
+    "id": "worldclock",
+    "name": "Relojes internacionales",
+    "category": "Viajes y experiencias",
+    "description": "Explora relojes analógicos y diferencias horarias con una referencia UTC simulada.",
+    "styles": [
+      "layer",
+      "exp-scene",
+      "text-dark",
+      "range",
+      "bg-white",
+      "bg-brand",
+      "pill"
+    ]
+  },
+  {
+    "id": "greenhouse",
+    "name": "Invernadero inteligente",
+    "category": "Instrumentos y control",
+    "description": "Selecciona zonas de cultivo y ajusta humedad, iluminación y riego simulados.",
+    "styles": [
+      "layer",
+      "text-dark",
+      "range",
+      "exp-param",
+      "toggle",
+      "button",
+      "button-black",
+      "bg-white",
+      "bg-brand",
+      "pill"
+    ]
+  },
+  {
+    "id": "cinema",
+    "name": "Sala de cine",
+    "category": "Viajes y experiencias",
+    "description": "Elige una función ficticia, selecciona asientos y consulta el importe total.",
+    "styles": [
+      "button-select",
+      "button-black",
+      "button-orange",
+      "text-light",
+      "bg-carbon",
+      "bg-brand",
+      "pill"
+    ]
+  },
+  {
+    "id": "parcel",
+    "name": "Centro de envíos",
+    "category": "Productividad",
+    "description": "Busca paquetes ficticios, inspecciona sus etapas de tránsito y cambia preferencias locales.",
+    "styles": [
+      "exp-study-chat-list",
+      "layer",
+      "input",
+      "toggle",
+      "bg-white",
+      "bg-brand",
+      "pill"
+    ]
+  },
+  {
+    "id": "sequencer",
+    "name": "Secuenciador rítmico",
+    "category": "Multimedia",
+    "description": "Construye patrones de ocho pasos, silencia canales y ajusta el tempo visual. No reproduce audio.",
+    "styles": [
+      "run",
+      "text-light",
+      "button-select",
+      "button-black",
+      "exp-param",
+      "bg-carbon",
+      "bg-brand",
+      "pill"
+    ]
+  },
+  {
+    "id": "hotel",
+    "name": "Estancias boutique",
+    "category": "Viajes y experiencias",
+    "description": "Compara habitaciones ilustradas, ajusta noches y huéspedes y calcula una estancia ficticia.",
+    "styles": [
+      "card",
+      "layer",
+      "button",
+      "button-black",
+      "button-orange",
+      "range",
+      "bg-white",
+      "bg-brand",
+      "pill"
+    ]
+  },
+  {
+    "id": "printing",
+    "name": "Preparación de impresión",
+    "category": "Diseño y cultura",
+    "description": "Ajusta formato, acabado, margen y copias de una prueba gráfica simulada.",
+    "styles": [
+      "bg-grid",
+      "layer",
+      "button",
+      "button-black",
+      "button-orange",
+      "range",
+      "bg-white",
+      "bg-brand",
+      "pill"
     ]
   }
 ]
