@@ -1,0 +1,109 @@
+[
+  {
+    "id": "pipeline",
+    "name": "Agent workspace",
+    "category": "Inteligencia artificial",
+    "description": "Selecciona un agente, ajusta sus parámetros y ejecuta una respuesta simulada.",
+    "styles": [
+      "exp-tray",
+      "exp-orb",
+      "exp-param",
+      "exp-prompt",
+      "exp-active",
+      "exp-running",
+      "exp-scene",
+      "run",
+      "bg-white"
+    ]
+  },
+  {
+    "id": "editor",
+    "name": "Visual node editor",
+    "category": "Herramientas creativas",
+    "description": "Un editor de nodos con selección, conexiones y cambio de espacio de trabajo.",
+    "styles": [
+      "bg-grid",
+      "bg-carbon",
+      "node",
+      "connector",
+      "exp-study-light-toolrail",
+      "exp-study-device-switch",
+      "input",
+      "button-black"
+    ]
+  },
+  {
+    "id": "files",
+    "name": "Document library",
+    "category": "Gestión de archivos",
+    "description": "Tarjetas cromáticas, búsqueda, favoritos y selección de documentos.",
+    "styles": [
+      "exp-file",
+      "exp-study-chat-search",
+      "exp-dock",
+      "button",
+      "bg-white"
+    ]
+  },
+  {
+    "id": "services",
+    "name": "Services gallery",
+    "category": "Web y productos",
+    "description": "Una galería de servicios con navegación y dos materiales cromáticos.",
+    "styles": [
+      "exp-study-service-nav",
+      "exp-study-carbon-search",
+      "exp-study-service-card-violet",
+      "exp-study-carbon-compare",
+      "bg-silver"
+    ]
+  },
+  {
+    "id": "chat",
+    "name": "Silvana assistant",
+    "category": "Inteligencia artificial",
+    "description": "Conversaciones, selector de iconos y compositor de solicitudes sobre carbón.",
+    "styles": [
+      "text-brand",
+      "exp-study-chat-search",
+      "exp-study-chat-list",
+      "exp-study-chat-panel",
+      "exp-study-chat-picker",
+      "exp-study-chat-textarea",
+      "exp-study-chat-start",
+      "bg-white"
+    ]
+  },
+  {
+    "id": "colors",
+    "name": "Material & color inspector",
+    "category": "Herramientas creativas",
+    "description": "Combina Smart Colors, controles neumórficos y una vista de material actualizable.",
+    "styles": [
+      "exp-study-color-field",
+      "exp-color",
+      "range",
+      "toggle",
+      "exp-param",
+      "layer-dark",
+      "exp-study-circular-button",
+      "bg-silver"
+    ]
+  },
+  {
+    "id": "login",
+    "name": "Product access",
+    "category": "Web y productos",
+    "description": "Una entrada de producto con navegación suave, campos y acciones de acceso.",
+    "styles": [
+      "exp-study-landing-nav",
+      "exp-study-product-tile-selected",
+      "exp-study-login",
+      "exp-study-login-actions",
+      "exp-study-demo-button",
+      "bg-brand",
+      "layer",
+      "bg-white"
+    ]
+  }
+]

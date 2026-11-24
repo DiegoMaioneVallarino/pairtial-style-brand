@@ -1,4 +1,4 @@
-# Pairtial Style Brand — 0.3.4
+# Pairtial Style Brand — 0.4.0
 
 Catálogo unificado de 91 estilos: los 49 originales y 42 incorporados del archivo visual. React + TypeScript + Vite y servidor Node. Un solo catálogo; cada tarjeta conserva la versión de origen. Colores, gradientes y tokens son referencias independientes de los 91 ejemplos.
 
@@ -59,3 +59,17 @@ Se retira el laboratorio y se incorporan los 42 estudios restantes al catálogo 
 - Las rotaciones respetan `prefers-reduced-motion`.
 
 Las File Cards mantienen su selector cromático y `data-format`. Los favoritos de Steel blue migran a Violet service card. No se redistribuyen fuentes OTF.
+
+## v0.4.0 — Compositions
+
+La sección Implementaciones → Ejemplos contiene siete composiciones React interactivas. Cada una ofrece filtros por ámbito, búsqueda, ampliación, restablecimiento y enlaces al inspector de los materiales del catálogo. Las demostraciones no envían datos ni ejecutan IA real.
+
+- Agent workspace: selección de agente, parámetros, prompt y ejecución simulada (puedes completar o detener la simulación).
+- Visual node editor: selección, renombrado, adición de nodos y disposición horizontal/vertical/cuadrícula/compacta; fondo claro o carbón.
+- Document library: búsqueda, selección, favoritos y dock.
+- Services gallery: filtros, búsqueda y selección de servicios para comparación.
+- Silvana assistant: selección de icono, creación y selección de conversaciones locales.
+- Material & color inspector: matiz, saturación, radio, intensidad, acento y modo oscuro.
+- Product access: navegación, selección de producto y acciones de acceso ficticias.
+
+`src/Examples.tsx` contiene los componentes y su comportamiento local, `src/examples.css` contiene únicamente el layout y ajustes de escala/contexto de las composiciones, `src/examples.json` contiene sus metadatos y referencias al catálogo. `GET /api/examples` devuelve estos metadatos. Los 91 estilos y los archivos CSS de la librería permanecen idénticos a v0.3.4. No se incluyen fuentes OTF.
