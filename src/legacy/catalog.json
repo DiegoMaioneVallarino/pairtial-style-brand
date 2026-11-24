@@ -1,0 +1,599 @@
+[
+  {
+    "id": "layer",
+    "category": "Superficies",
+    "name": "Layer / Signature",
+    "description": "Borde luminoso de 1 px con dos degradados.",
+    "html": "<div class=\"pt-layer\"><div class=\"pt-layer__in\" style=\"padding:24px 36px\">Pairtial</div></div>",
+    "classes": [
+      "pt-layer",
+      "pt-layer__in"
+    ],
+    "background": "light"
+  },
+  {
+    "id": "layer-dark",
+    "category": "Superficies",
+    "name": "Layer / Black",
+    "description": "Variante negra con filo metálico.",
+    "html": "<div class=\"pt-layer pt-layer--dark\"><div class=\"pt-layer__in\" style=\"padding:24px 36px\">Pairtial</div></div>",
+    "classes": [
+      "pt-layer",
+      "pt-layer--dark",
+      "pt-layer__in"
+    ],
+    "background": "light"
+  },
+  {
+    "id": "soft",
+    "category": "Superficies",
+    "name": "Soft surface",
+    "description": "Gradiente diagonal y sombra doble.",
+    "html": "<div class=\"pt-soft\" style=\"padding:26px 36px\">Soft surface</div>",
+    "classes": [
+      "pt-soft"
+    ],
+    "background": "light"
+  },
+  {
+    "id": "card",
+    "category": "Superficies",
+    "name": "White card",
+    "description": "Volumen neumórfico, blanco y plata.",
+    "html": "<div class=\"pt-card\" style=\"padding:26px 36px\">White card</div>",
+    "classes": [
+      "pt-card"
+    ],
+    "background": "light"
+  },
+  {
+    "id": "card-black",
+    "category": "Superficies",
+    "name": "Black card",
+    "description": "Contraste metálico en tres tonos.",
+    "html": "<div class=\"pt-card pt-card--black\" style=\"padding:26px 36px\">Black card</div>",
+    "classes": [
+      "pt-card",
+      "pt-card--black"
+    ],
+    "background": "light"
+  },
+  {
+    "id": "sunken",
+    "category": "Superficies",
+    "name": "Sunken surface",
+    "description": "Contenedor hundido para listas y controles.",
+    "html": "<div class=\"pt-sunken\" style=\"padding:26px 36px\">Sunken</div>",
+    "classes": [
+      "pt-sunken"
+    ],
+    "background": "light"
+  },
+  {
+    "id": "glass",
+    "category": "Superficies",
+    "name": "Frosted glass",
+    "description": "Transparencia y desenfoque de fondo.",
+    "html": "<div class=\"pt-glass\" style=\"padding:24px 35px;border-radius:14px\">Frosted glass</div>",
+    "classes": [
+      "pt-glass"
+    ],
+    "background": "color"
+  },
+  {
+    "id": "dark-panel",
+    "category": "Superficies",
+    "name": "Dark panel",
+    "description": "Panel grafito con borde violeta.",
+    "html": "<div class=\"pt-panel-dark\"><div class=\"pt-panel-dark__in\" style=\"padding:26px 36px\">Inspector</div></div>",
+    "classes": [
+      "pt-panel-dark",
+      "pt-panel-dark__in"
+    ],
+    "background": "light"
+  },
+  {
+    "id": "button",
+    "category": "Botones",
+    "name": "Classic button",
+    "description": "Botón claro con halo al pasar el cursor.",
+    "html": "<button type=\"button\" class=\"pt-btn\">Continue</button>",
+    "classes": [
+      "pt-btn"
+    ],
+    "background": "light"
+  },
+  {
+    "id": "button-dark",
+    "category": "Botones",
+    "name": "Graphite button",
+    "description": "Contraste grafito y tipografía ligera.",
+    "html": "<button type=\"button\" class=\"pt-btn pt-btn--dark\">Continue</button>",
+    "classes": [
+      "pt-btn",
+      "pt-btn--dark"
+    ],
+    "background": "light"
+  },
+  {
+    "id": "button-black",
+    "category": "Botones",
+    "name": "Black button",
+    "description": "Gradiente negro y sombra interior.",
+    "html": "<button type=\"button\" class=\"pt-btn pt-btn--black\">Continue</button>",
+    "classes": [
+      "pt-btn",
+      "pt-btn--black"
+    ],
+    "background": "light"
+  },
+  {
+    "id": "button-select",
+    "category": "Botones",
+    "name": "Selected button",
+    "description": "Acento azul de selección.",
+    "html": "<button type=\"button\" class=\"pt-btn pt-btn--select\">Continue</button>",
+    "classes": [
+      "pt-btn",
+      "pt-btn--select"
+    ],
+    "background": "light"
+  },
+  {
+    "id": "button-disabled",
+    "category": "Botones",
+    "name": "Disabled button",
+    "description": "Estado deshabilitado nativo.",
+    "html": "<button type=\"button\" class=\"pt-btn\" disabled>Continue</button>",
+    "classes": [
+      "pt-btn"
+    ],
+    "background": "light"
+  },
+  {
+    "id": "icon",
+    "category": "Botones",
+    "name": "Circular icon",
+    "description": "Botón de herramienta circular.",
+    "html": "<button type=\"button\" class=\"pt-icon-btn\" aria-label=\"Añadir\">+</button>",
+    "classes": [
+      "pt-icon-btn"
+    ],
+    "background": "light"
+  },
+  {
+    "id": "run",
+    "category": "Botones",
+    "name": "Run",
+    "description": "Botón de ejecución naranja característico.",
+    "html": "<button type=\"button\" class=\"pt-btn-run\" aria-label=\"Ejecutar\">▶</button>",
+    "classes": [
+      "pt-btn-run"
+    ],
+    "background": "light"
+  },
+  {
+    "id": "pill",
+    "category": "Botones",
+    "name": "Pill",
+    "description": "Etiqueta de estado en grafito violeta.",
+    "html": "<span class=\"pt-pill\">ACTIVE</span>",
+    "classes": [
+      "pt-pill"
+    ],
+    "background": "light"
+  },
+  {
+    "id": "input",
+    "category": "Controles",
+    "name": "Text input",
+    "description": "Campo de texto con borde por capas.",
+    "html": "<div class=\"pt-input\"><input aria-label=\"Nombre\" placeholder=\"Project name\"></div>",
+    "classes": [
+      "pt-input"
+    ],
+    "background": "light"
+  },
+  {
+    "id": "textarea",
+    "category": "Controles",
+    "name": "Textarea",
+    "description": "Área de texto con altura intrínseca.",
+    "html": "<div class=\"pt-input\"><textarea aria-label=\"Descripción\" rows=\"3\" placeholder=\"Write something...\"></textarea></div>",
+    "classes": [
+      "pt-input"
+    ],
+    "background": "light"
+  },
+  {
+    "id": "range",
+    "category": "Controles",
+    "name": "Smart Colors slider",
+    "description": "Control nativo arrastrable y accesible por teclado.",
+    "html": "<input class=\"pt-range\" type=\"range\" aria-label=\"Intensidad\" min=\"0\" max=\"100\" value=\"65\" style=\"width:180px\">",
+    "classes": [
+      "pt-range"
+    ],
+    "background": "light"
+  },
+  {
+    "id": "toggle",
+    "category": "Controles",
+    "name": "Toggle",
+    "description": "Interruptor nuevo basado en los tokens originales.",
+    "html": "<label style=\"display:flex;align-items:center;gap:10px\"><input type=\"checkbox\" class=\"pt-toggle\" checked> Enabled</label>",
+    "classes": [
+      "pt-toggle"
+    ],
+    "background": "light"
+  },
+  {
+    "id": "nav",
+    "category": "Controles",
+    "name": "Navigation tabs",
+    "description": "Estado seleccionado de navegación.",
+    "html": "<div style=\"display:flex;gap:8px\"><button class=\"pt-nav-item is-selected\" type=\"button\" style=\"padding:8px\">Grid</button><button class=\"pt-nav-item\" type=\"button\" style=\"padding:8px\">Component</button></div>",
+    "classes": [
+      "pt-nav-item",
+      "is-selected"
+    ],
+    "background": "light"
+  },
+  {
+    "id": "scroll",
+    "category": "Controles",
+    "name": "Scroll surface",
+    "description": "Lista desplazable con scrollbar metálica.",
+    "html": "<div class=\"pt-sunken pt-scroll\" tabindex=\"0\" aria-label=\"Lista desplazable\" style=\"height:90px;width:160px;overflow:auto;padding:12px;box-sizing:border-box\">Layer 01<br>Layer 02<br>Layer 03<br>Layer 04<br>Layer 05<br>Layer 06</div>",
+    "classes": [
+      "pt-sunken",
+      "pt-scroll"
+    ],
+    "background": "light"
+  },
+  {
+    "id": "tile-blue",
+    "category": "Tiles",
+    "name": "Deep blue",
+    "description": "Tile de servicio inspirado en la landing.",
+    "html": "<div class=\"pt-tile pt-tile--blue\" style=\"width:165px;height:94px\"><span class=\"pt-tile__title\" style=\"font-size:24px\">Deep blue</span><span class=\"pt-tile__sub\" style=\"font-size:13px\">Pairtial</span></div>",
+    "classes": [
+      "pt-tile",
+      "pt-tile--blue",
+      "pt-tile__title",
+      "pt-tile__sub"
+    ],
+    "background": "light"
+  },
+  {
+    "id": "tile-pink",
+    "category": "Tiles",
+    "name": "Magenta",
+    "description": "Tile de servicio inspirado en la landing.",
+    "html": "<div class=\"pt-tile pt-tile--pink\" style=\"width:165px;height:94px\"><span class=\"pt-tile__title\" style=\"font-size:24px\">Magenta</span><span class=\"pt-tile__sub\" style=\"font-size:13px\">Pairtial</span></div>",
+    "classes": [
+      "pt-tile",
+      "pt-tile--pink",
+      "pt-tile__title",
+      "pt-tile__sub"
+    ],
+    "background": "light"
+  },
+  {
+    "id": "tile-cyan",
+    "category": "Tiles",
+    "name": "Cyan",
+    "description": "Tile de servicio inspirado en la landing.",
+    "html": "<div class=\"pt-tile pt-tile--cyan\" style=\"width:165px;height:94px\"><span class=\"pt-tile__title\" style=\"font-size:24px\">Cyan</span><span class=\"pt-tile__sub\" style=\"font-size:13px\">Pairtial</span></div>",
+    "classes": [
+      "pt-tile",
+      "pt-tile--cyan",
+      "pt-tile__title",
+      "pt-tile__sub"
+    ],
+    "background": "light"
+  },
+  {
+    "id": "tile-graphite",
+    "category": "Tiles",
+    "name": "Graphite",
+    "description": "Tile de servicio inspirado en la landing.",
+    "html": "<div class=\"pt-tile pt-tile--graphite\" style=\"width:165px;height:94px\"><span class=\"pt-tile__title\" style=\"font-size:24px\">Graphite</span><span class=\"pt-tile__sub\" style=\"font-size:13px\">Pairtial</span></div>",
+    "classes": [
+      "pt-tile",
+      "pt-tile--graphite",
+      "pt-tile__title",
+      "pt-tile__sub"
+    ],
+    "background": "light"
+  },
+  {
+    "id": "tile-silver",
+    "category": "Tiles",
+    "name": "Silver",
+    "description": "Tile de servicio inspirado en la landing.",
+    "html": "<div class=\"pt-tile pt-tile--silver\" style=\"width:165px;height:94px\"><span class=\"pt-tile__title\" style=\"font-size:24px\">Silver</span><span class=\"pt-tile__sub\" style=\"font-size:13px\">Pairtial</span></div>",
+    "classes": [
+      "pt-tile",
+      "pt-tile--silver",
+      "pt-tile__title",
+      "pt-tile__sub"
+    ],
+    "background": "light"
+  },
+  {
+    "id": "node-if",
+    "category": "Nodos",
+    "name": "if",
+    "description": "Color semántico y puertos del editor visual.",
+    "html": "<div class=\"pt-node pt-node--if\" style=\"width:130px\"><span class=\"pt-node-port\"></span><span class=\"pt-node__title\">if</span><span class=\"pt-node-port\"></span></div>",
+    "classes": [
+      "pt-node",
+      "pt-node--if",
+      "pt-node-port",
+      "pt-node__title"
+    ],
+    "background": "light"
+  },
+  {
+    "id": "node-elseif",
+    "category": "Nodos",
+    "name": "else if",
+    "description": "Color semántico y puertos del editor visual.",
+    "html": "<div class=\"pt-node pt-node--elseif\" style=\"width:130px\"><span class=\"pt-node-port\"></span><span class=\"pt-node__title\">else if</span><span class=\"pt-node-port\"></span></div>",
+    "classes": [
+      "pt-node",
+      "pt-node--elseif",
+      "pt-node-port",
+      "pt-node__title"
+    ],
+    "background": "light"
+  },
+  {
+    "id": "node-else",
+    "category": "Nodos",
+    "name": "else",
+    "description": "Color semántico y puertos del editor visual.",
+    "html": "<div class=\"pt-node pt-node--else\" style=\"width:130px\"><span class=\"pt-node-port\"></span><span class=\"pt-node__title\">else</span><span class=\"pt-node-port\"></span></div>",
+    "classes": [
+      "pt-node",
+      "pt-node--else",
+      "pt-node-port",
+      "pt-node__title"
+    ],
+    "background": "light"
+  },
+  {
+    "id": "node-switch",
+    "category": "Nodos",
+    "name": "switch",
+    "description": "Color semántico y puertos del editor visual.",
+    "html": "<div class=\"pt-node pt-node--switch\" style=\"width:130px\"><span class=\"pt-node-port\"></span><span class=\"pt-node__title\">switch</span><span class=\"pt-node-port\"></span></div>",
+    "classes": [
+      "pt-node",
+      "pt-node--switch",
+      "pt-node-port",
+      "pt-node__title"
+    ],
+    "background": "light"
+  },
+  {
+    "id": "node-return",
+    "category": "Nodos",
+    "name": "return",
+    "description": "Color semántico y puertos del editor visual.",
+    "html": "<div class=\"pt-node pt-node--return\" style=\"width:130px\"><span class=\"pt-node-port\"></span><span class=\"pt-node__title\">return</span><span class=\"pt-node-port\"></span></div>",
+    "classes": [
+      "pt-node",
+      "pt-node--return",
+      "pt-node-port",
+      "pt-node__title"
+    ],
+    "background": "light"
+  },
+  {
+    "id": "text-dark",
+    "category": "Tipografía",
+    "name": "Dark gradient",
+    "description": "Texto con degradado de identidad.",
+    "html": "<span class=\"pt-text-gradient\" style=\"font-size:36px;font-weight:700\">Pairtial</span>",
+    "classes": [
+      "pt-text-gradient"
+    ],
+    "background": "light"
+  },
+  {
+    "id": "text-metal",
+    "category": "Tipografía",
+    "name": "Metallic gradient",
+    "description": "Texto con degradado de identidad.",
+    "html": "<span class=\"pt-text-gradient-metal\" style=\"font-size:36px;font-weight:700\">Pairtial</span>",
+    "classes": [
+      "pt-text-gradient-metal"
+    ],
+    "background": "light"
+  },
+  {
+    "id": "text-light",
+    "category": "Tipografía",
+    "name": "Light gradient",
+    "description": "Texto con degradado de identidad.",
+    "html": "<span class=\"pt-text-gradient-light\" style=\"font-size:36px;font-weight:700\">Pairtial</span>",
+    "classes": [
+      "pt-text-gradient-light"
+    ],
+    "background": "dark"
+  },
+  {
+    "id": "text-brand",
+    "category": "Tipografía",
+    "name": "Silvana",
+    "description": "Texto con degradado de identidad.",
+    "html": "<span class=\"pt-text-brand\" style=\"font-size:36px;font-weight:700\">Silvana</span>",
+    "classes": [
+      "pt-text-brand"
+    ],
+    "background": "light"
+  },
+  {
+    "id": "hover",
+    "category": "Movimiento",
+    "name": "Halo / hover",
+    "description": "Pasa el cursor para ver la elevación y el halo.",
+    "html": "<button type=\"button\" class=\"pt-btn pt-hover-lift\">Hover me</button>",
+    "classes": [
+      "pt-btn",
+      "pt-hover-lift"
+    ],
+    "background": "light"
+  },
+  {
+    "id": "invert",
+    "category": "Movimiento",
+    "name": "Invert hover",
+    "description": "Inversión de color en interacción.",
+    "html": "<button type=\"button\" class=\"pt-btn pt-btn--black pt-hover-invert\">Invert me</button>",
+    "classes": [
+      "pt-btn",
+      "pt-btn--black",
+      "pt-hover-invert"
+    ],
+    "background": "light"
+  },
+  {
+    "id": "pulse",
+    "category": "Movimiento",
+    "name": "Pulse ring",
+    "description": "Anillos concéntricos animados.",
+    "html": "<div class=\"pt-icon-btn pt-pulse\" aria-hidden=\"true\">●</div>",
+    "classes": [
+      "pt-icon-btn",
+      "pt-pulse"
+    ],
+    "background": "light"
+  },
+  {
+    "id": "gear",
+    "category": "Movimiento",
+    "name": "Gear rotation",
+    "description": "Rotación lenta de identidad visual.",
+    "html": "<span class=\"pt-gear pt-gear-spin\" aria-label=\"Engranaje A\">A</span>",
+    "classes": [
+      "pt-gear-spin",
+      "pt-gear"
+    ],
+    "background": "light"
+  },
+  {
+    "id": "selection",
+    "category": "Estados",
+    "name": "Selected object",
+    "description": "Selección azul del editor.",
+    "html": "<div class=\"pt-card pt-is-selected\" style=\"padding:20px;color:white\">Selected</div>",
+    "classes": [
+      "pt-card",
+      "pt-is-selected"
+    ],
+    "background": "light"
+  },
+  {
+    "id": "cutting",
+    "category": "Estados",
+    "name": "Cutting object",
+    "description": "Estado de corte violeta.",
+    "html": "<div class=\"pt-card pt-is-cutting\" style=\"padding:20px;color:white\">Cutting</div>",
+    "classes": [
+      "pt-card",
+      "pt-is-cutting"
+    ],
+    "background": "light"
+  },
+  {
+    "id": "connector",
+    "category": "Estados",
+    "name": "Blue connector",
+    "description": "Conexión luminosa entre nodos.",
+    "html": "<div class=\"pt-line-blue\" style=\"width:140px;height:4px;border-radius:4px\"></div>",
+    "classes": [
+      "pt-line-blue"
+    ],
+    "background": "light"
+  },
+  {
+    "id": "gear-a",
+    "category": "Identidad",
+    "name": "Gear A",
+    "description": "Glifo A de Pair Regular (pair.otf). Requiere fuente local.",
+    "html": "<span class=\"pt-gear\" aria-label=\"Engranaje A\">A</span>",
+    "classes": [
+      "pt-gear"
+    ],
+    "background": "light"
+  },
+  {
+    "id": "gear-b",
+    "category": "Identidad",
+    "name": "Gear B",
+    "description": "Glifo B de Pair Regular (pair.otf). Requiere fuente local.",
+    "html": "<span class=\"pt-gear\" aria-label=\"Engranaje B\">B</span>",
+    "classes": [
+      "pt-gear"
+    ],
+    "background": "light"
+  },
+  {
+    "id": "gear-c",
+    "category": "Identidad",
+    "name": "Gear C",
+    "description": "Glifo C de Pair Regular (pair.otf). Requiere fuente local.",
+    "html": "<span class=\"pt-gear\" aria-label=\"Engranaje C\">C</span>",
+    "classes": [
+      "pt-gear"
+    ],
+    "background": "light"
+  },
+  {
+    "id": "gear-d",
+    "category": "Identidad",
+    "name": "Gear D",
+    "description": "Glifo D de Pair Regular (pair.otf). Requiere fuente local.",
+    "html": "<span class=\"pt-gear\" aria-label=\"Engranaje D\">D</span>",
+    "classes": [
+      "pt-gear"
+    ],
+    "background": "light"
+  },
+  {
+    "id": "gear-e",
+    "category": "Identidad",
+    "name": "Gear E",
+    "description": "Glifo E de Pair Regular (pair.otf). Requiere fuente local.",
+    "html": "<span class=\"pt-gear\" aria-label=\"Engranaje E\">E</span>",
+    "classes": [
+      "pt-gear"
+    ],
+    "background": "light"
+  },
+  {
+    "id": "gear-f",
+    "category": "Identidad",
+    "name": "Gear F",
+    "description": "Glifo F de Pair Regular (pair.otf). Requiere fuente local.",
+    "html": "<span class=\"pt-gear\" aria-label=\"Engranaje F\">F</span>",
+    "classes": [
+      "pt-gear"
+    ],
+    "background": "light"
+  },
+  {
+    "id": "gear-g",
+    "category": "Identidad",
+    "name": "Gear G",
+    "description": "Glifo G de Pair Regular (pair.otf). Requiere fuente local.",
+    "html": "<span class=\"pt-gear\" aria-label=\"Engranaje G\">G</span>",
+    "classes": [
+      "pt-gear"
+    ],
+    "background": "light"
+  }
+]

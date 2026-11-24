@@ -1,0 +1,20 @@
+{
+  "name": "@pairtial/style-brand-legacy",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Pairtial visual identity — CSS tokens and primitives",
+  "files": [
+    "*.css",
+    "tokens.json"
+  ],
+  "exports": {
+    ".": "./index.css",
+    "./tokens.css": "./tokens.css",
+    "./components.css": "./components.css",
+    "./themes.css": "./themes.css",
+    "./tokens.json": "./tokens.json"
+  },
+  "sideEffects": [
+    "**/*.css"
+  ]
+}

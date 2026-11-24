@@ -1,0 +1,730 @@
+[
+  {
+    "id": "exp-shell",
+    "category": "Nuevos estilos",
+    "name": "Silver shell",
+    "description": "Marco blanco plateado con anillo de 1 px y cabecera neutra. Original: _MainInner.",
+    "html": "<div class=\"pt-exp-ring pt-exp-shell\"><span class=\"pt-exp-face\"><span class=\"pt-exp-shell-bar\">Workspace <span>▸</span></span><span class=\"pt-exp-shell-body\">Panel de trabajo</span></span></div>",
+    "classes": [
+      "pt-exp-ring",
+      "pt-exp-shell",
+      "pt-exp-face",
+      "pt-exp-shell-bar",
+      "pt-exp-shell-body"
+    ],
+    "background": "light",
+    "source": "Pipeline · experimental"
+  },
+  {
+    "id": "exp-tray",
+    "category": "Nuevos estilos",
+    "name": "Sunken toolbar",
+    "description": "Bandeja horizontal con borde gris y cavidades circulares. Original: _BotsListinnerMargin.",
+    "html": "<div class=\"pt-exp-ring pt-exp-tray\" data-exp-group=\"single\"><span class=\"pt-exp-face\"><button class=\"pt-exp-ring pt-exp-orb\" type=\"button\" aria-pressed=\"true\" aria-label=\"Bot 1\"><span class=\"pt-exp-face\"></span></button><button class=\"pt-exp-ring pt-exp-orb\" type=\"button\" aria-pressed=\"false\" aria-label=\"Bot 2\"><span class=\"pt-exp-face\"></span></button><button class=\"pt-exp-ring pt-exp-orb\" type=\"button\" aria-pressed=\"false\" aria-label=\"Bot 3\"><span class=\"pt-exp-face\"></span></button></span></div>",
+    "classes": [
+      "pt-exp-ring",
+      "pt-exp-tray",
+      "pt-exp-face",
+      "pt-exp-orb"
+    ],
+    "background": "light",
+    "source": "Pipeline · experimental"
+  },
+  {
+    "id": "exp-orb",
+    "category": "Nuevos estilos",
+    "name": "Agent selector",
+    "description": "Círculo gris que conserva su material al seleccionarse; borde naranja y halos sólidos.",
+    "html": "<button class=\"pt-exp-ring pt-exp-orb\" type=\"button\" aria-pressed=\"true\" aria-label=\"Seleccionar agente\"><span class=\"pt-exp-face\"></span></button>",
+    "classes": [
+      "pt-exp-ring",
+      "pt-exp-orb",
+      "pt-exp-face"
+    ],
+    "background": "light",
+    "source": "Pipeline · experimental"
+  },
+  {
+    "id": "exp-scene",
+    "category": "Nuevos estilos",
+    "name": "Scene / document tab",
+    "description": "Ficha de escena con contador, extensión y selección naranja. Original: _PipelineTimeBtMargin.",
+    "html": "<button class=\"pt-exp-ring pt-exp-scene\" type=\"button\" aria-pressed=\"true\"><span class=\"pt-exp-face\"><span class=\"pt-exp-scene-top\"><span class=\"pt-exp-format\">HTML</span><span class=\"pt-exp-count\">1</span></span>Landing</span></button>",
+    "classes": [
+      "pt-exp-ring",
+      "pt-exp-scene",
+      "pt-exp-face",
+      "pt-exp-scene-top",
+      "pt-exp-format",
+      "pt-exp-count"
+    ],
+    "background": "light",
+    "source": "Pipeline · experimental"
+  },
+  {
+    "id": "exp-action",
+    "category": "Nuevos estilos",
+    "name": "Silver action button",
+    "description": "Botón rectangular de bajo relieve, icono gris y gradiente diagonal.",
+    "html": "<button class=\"pt-exp-ring pt-exp-action\" type=\"button\"><span class=\"pt-exp-face\"><span class=\"pt-exp-action-icon\" aria-hidden=\"true\">✦</span> Instruction</span></button>",
+    "classes": [
+      "pt-exp-ring",
+      "pt-exp-action",
+      "pt-exp-face",
+      "pt-exp-action-icon"
+    ],
+    "background": "light",
+    "source": "Pipeline · experimental"
+  },
+  {
+    "id": "exp-mini",
+    "category": "Nuevos estilos",
+    "name": "Mini action pair",
+    "description": "Botones de confirmación y cancelación de perfil bajo, sin sombras difusas.",
+    "html": "<div class=\"pt-exp-pair\"><button class=\"pt-exp-ring pt-exp-mini\" type=\"button\"><span class=\"pt-exp-face\">Cancel</span></button><button class=\"pt-exp-ring pt-exp-mini\" type=\"button\"><span class=\"pt-exp-face\">✓</span></button></div>",
+    "classes": [
+      "pt-exp-pair",
+      "pt-exp-ring",
+      "pt-exp-mini",
+      "pt-exp-face"
+    ],
+    "background": "light",
+    "source": "Pipeline · experimental"
+  },
+  {
+    "id": "exp-active",
+    "category": "Nuevos estilos",
+    "name": "Active pipeline",
+    "description": "Panel de ejecución con anillo azul-cian y superficie blanca azulada.",
+    "html": "<div class=\"pt-exp-ring pt-exp-active\"><span class=\"pt-exp-face\"><span class=\"pt-exp-active-title\">Answer <span>✦</span></span><span class=\"pt-exp-active-output\">Simulación de respuesta del modelo.</span></span></div>",
+    "classes": [
+      "pt-exp-ring",
+      "pt-exp-active",
+      "pt-exp-face",
+      "pt-exp-active-title",
+      "pt-exp-active-output"
+    ],
+    "background": "light",
+    "source": "Pipeline · experimental"
+  },
+  {
+    "id": "exp-prompt",
+    "category": "Nuevos estilos",
+    "name": "Active prompt",
+    "description": "Editor de prompt con anillos azules y textarea sin redimensionamiento; enfocar para ver el material azul.",
+    "html": "<div class=\"pt-exp-ring pt-exp-prompt\"><span class=\"pt-exp-face\"><span class=\"pt-exp-active-title\">Prompt:</span><span class=\"pt-exp-prompt-input\"><textarea aria-label=\"Prompt\">Noticias de hoy en el mundo</textarea></span></span></div>",
+    "classes": [
+      "pt-exp-ring",
+      "pt-exp-prompt",
+      "pt-exp-face",
+      "pt-exp-active-title",
+      "pt-exp-prompt-input"
+    ],
+    "background": "light",
+    "source": "Pipeline · experimental"
+  },
+  {
+    "id": "exp-running",
+    "category": "Nuevos estilos",
+    "name": "Pipeline pulse",
+    "description": "Borde cromático animado y tres halos azules sólidos sin blur. Adaptación de onPipe y pulse.",
+    "html": "<div class=\"pt-exp-ring pt-exp-active pt-exp-running\"><span class=\"pt-exp-face\"><span class=\"pt-exp-active-title\">Running <span>✦</span></span><span class=\"pt-exp-active-output\">Processing…</span></span></div>",
+    "classes": [
+      "pt-exp-ring",
+      "pt-exp-active",
+      "pt-exp-running",
+      "pt-exp-face",
+      "pt-exp-active-title",
+      "pt-exp-active-output"
+    ],
+    "background": "light",
+    "source": "Pipeline · experimental"
+  },
+  {
+    "id": "exp-file",
+    "category": "Nuevos estilos",
+    "name": "File card",
+    "description": "Ficha universal de archivo con líneas blancas, extensión y favorito. Variantes azul, verde, rojo y magenta.",
+    "html": "<div class=\"pt-exp-ring pt-exp-file\" data-format=\"txt\"><span class=\"pt-exp-face\"><span class=\"pt-exp-file-icon\"><span class=\"pt-exp-file-art\"><span class=\"pt-exp-file-line\"></span><span class=\"pt-exp-file-line\"></span><span class=\"pt-exp-file-line\"></span><span class=\"pt-exp-file-ext\">.txt</span></span></span><span class=\"pt-exp-file-info\"><span class=\"pt-exp-file-title\">Nombre del archivo</span><span class=\"pt-exp-file-meta\">Tipo de archivo</span></span><button type=\"button\" class=\"pt-exp-file-star\" aria-label=\"Marcar favorito\" aria-pressed=\"false\">☆</button></span></div>",
+    "classes": [
+      "pt-exp-ring",
+      "pt-exp-file",
+      "pt-exp-face",
+      "pt-exp-file-icon",
+      "pt-exp-file-art",
+      "pt-exp-file-line",
+      "pt-exp-file-ext",
+      "pt-exp-file-info",
+      "pt-exp-file-title",
+      "pt-exp-file-meta",
+      "pt-exp-file-star"
+    ],
+    "background": "light",
+    "source": "Pipeline · experimental"
+  },
+  {
+    "id": "exp-export",
+    "category": "Nuevos estilos",
+    "name": "Export module",
+    "description": "Bloque de exportación con dos marcos independientes, distintivo oscuro y campo de nombre.",
+    "html": "<div class=\"pt-exp-ring pt-exp-export\"><span class=\"pt-exp-face\"><span class=\"pt-exp-export-inner\"><span class=\"pt-exp-export-content\"><span class=\"pt-exp-export-line\">↪ Export to <span class=\"pt-exp-format\">.html</span></span><input class=\"pt-exp-export-name\" aria-label=\"Nombre de exportación\" placeholder=\"Name\"></span></span></span></div>",
+    "classes": [
+      "pt-exp-ring",
+      "pt-exp-export",
+      "pt-exp-face",
+      "pt-exp-export-inner",
+      "pt-exp-export-content",
+      "pt-exp-export-line",
+      "pt-exp-format",
+      "pt-exp-export-name"
+    ],
+    "background": "light",
+    "source": "Pipeline · experimental"
+  },
+  {
+    "id": "exp-panel",
+    "category": "Nuevos estilos",
+    "name": "Docked inspector",
+    "description": "Panel lateral con pestañas superiores integradas y superficie blanca plateada.",
+    "html": "<div class=\"pt-exp-ring pt-exp-panel\"><span class=\"pt-exp-face\"><span class=\"pt-exp-panel-tabs\" data-exp-group=\"single\"><button class=\"pt-exp-ring pt-exp-panel-tab\" type=\"button\" aria-pressed=\"false\" aria-label=\"Acciones\"><span class=\"pt-exp-face\">⚡</span></button><button class=\"pt-exp-ring pt-exp-panel-tab\" type=\"button\" aria-pressed=\"true\" aria-label=\"Exportación\"><span class=\"pt-exp-face\">↑</span></button></span><span class=\"pt-exp-panel-body\">Panel de propiedades</span></span></div>",
+    "classes": [
+      "pt-exp-ring",
+      "pt-exp-panel",
+      "pt-exp-face",
+      "pt-exp-panel-tabs",
+      "pt-exp-panel-tab",
+      "pt-exp-panel-body"
+    ],
+    "background": "light",
+    "source": "Pipeline · experimental"
+  },
+  {
+    "id": "exp-color",
+    "category": "Nuevos estilos",
+    "name": "Color well",
+    "description": "Selector cromático con cavidad plateada y anillo naranja independiente.",
+    "html": "<div class=\"pt-exp-ring pt-exp-color-well\"><span class=\"pt-exp-face\"><span class=\"pt-exp-color-edge\"><input class=\"pt-exp-color-face\" type=\"color\" value=\"#ff9900\" aria-label=\"Color\"></span></span></div>",
+    "classes": [
+      "pt-exp-ring",
+      "pt-exp-color-well",
+      "pt-exp-face",
+      "pt-exp-color-edge",
+      "pt-exp-color-face"
+    ],
+    "background": "light",
+    "source": "Pipeline · experimental"
+  },
+  {
+    "id": "exp-dock",
+    "category": "Nuevos estilos",
+    "name": "App dock",
+    "description": "Dock compacto de módulos plateados; selección blanca y símbolo negro.",
+    "html": "<div class=\"pt-exp-ring pt-exp-dock\" data-exp-group=\"single\"><span class=\"pt-exp-face\"><div class=\"pt-exp-ring pt-exp-dock-nav\"><span class=\"pt-exp-face\"><button type=\"button\" aria-label=\"Anterior\">▲</button><button type=\"button\" aria-label=\"Siguiente\">▼</button></span></div><button class=\"pt-exp-ring pt-exp-dock-tile\" type=\"button\" aria-pressed=\"true\" aria-label=\"Módulo 1\"><span class=\"pt-exp-face\"><span class=\"pt-exp-dock-orb\"></span></span></button><button class=\"pt-exp-ring pt-exp-dock-tile\" type=\"button\" aria-pressed=\"false\" aria-label=\"Módulo 2\"><span class=\"pt-exp-face\">+</span></button><button class=\"pt-exp-ring pt-exp-dock-tile\" type=\"button\" aria-pressed=\"false\" aria-label=\"Módulo 3\"><span class=\"pt-exp-face\">+</span></button></span></div>",
+    "classes": [
+      "pt-exp-ring",
+      "pt-exp-dock",
+      "pt-exp-face",
+      "pt-exp-dock-nav",
+      "pt-exp-dock-tile",
+      "pt-exp-dock-orb"
+    ],
+    "background": "light",
+    "source": "Pipeline · experimental"
+  },
+  {
+    "id": "exp-popover",
+    "category": "Nuevos estilos",
+    "name": "Silver popover",
+    "description": "Panel flotante con punta triangular y marco gris de un píxel.",
+    "html": "<div class=\"pt-exp-ring pt-exp-popover\"><span class=\"pt-exp-face\">Library<br>Project resources</span></div>",
+    "classes": [
+      "pt-exp-ring",
+      "pt-exp-popover",
+      "pt-exp-face"
+    ],
+    "background": "light",
+    "source": "Pipeline · experimental"
+  },
+  {
+    "id": "exp-param",
+    "category": "Nuevos estilos",
+    "name": "Parameter control",
+    "description": "Etiqueta de parámetro, valor encapsulado y Smart slider con carril de degradado azul y tirador rectangular plateado.",
+    "html": "<div class=\"pt-exp-param-control\"><span class=\"pt-exp-param\"><span class=\"pt-exp-param-label\">Temperature</span><output class=\"pt-exp-param-value\">2</output></span><input class=\"pt-exp-param-range\" aria-label=\"Temperatura\" type=\"range\" min=\"0\" max=\"10\" value=\"2\"></div>",
+    "classes": [
+      "pt-exp-param",
+      "pt-exp-param-label",
+      "pt-exp-param-value",
+      "pt-exp-param-range",
+      "pt-exp-param-control"
+    ],
+    "background": "light",
+    "source": "Pipeline · experimental"
+  },
+  {
+    "id": "exp-study-product-tile",
+    "category": "Nuevos estilos",
+    "name": "Product tile",
+    "description": "Tarjeta grande, casi plana, con degradado blanco a gris y radio generoso.",
+    "html": "<div class=\"pt-exp-study-ring pt-exp-study-product-tile\" ><span class=\"pt-exp-study-face\">Producto</span></div>",
+    "classes": [
+      "pt-exp-study-ring",
+      "pt-exp-study-product-tile",
+      "pt-exp-study-face"
+    ],
+    "background": "light",
+    "source": "Landing · visual study"
+  },
+  {
+    "id": "exp-study-product-tile-selected",
+    "category": "Nuevos estilos",
+    "name": "Product tile selected",
+    "description": "Variante blanca de la tarjeta de producto, con anillo casi imperceptible.",
+    "html": "<button class=\"pt-exp-study-ring pt-exp-study-product-tile\" type=\"button\" aria-pressed=\"true\"><span class=\"pt-exp-study-face\">Producto</span></button>",
+    "classes": [
+      "pt-exp-study-ring",
+      "pt-exp-study-product-tile",
+      "pt-exp-study-face"
+    ],
+    "background": "light",
+    "source": "Landing · visual study"
+  },
+  {
+    "id": "exp-study-landing-nav",
+    "category": "Nuevos estilos",
+    "name": "Soft navigation",
+    "description": "Navegación horizontal con selección elevada por un anillo claro.",
+    "html": "<div class=\"pt-exp-study-nav\" data-exp-group=\"single\"><button class=\"pt-exp-study-ring pt-exp-study-nav-tab\" type=\"button\" aria-pressed=\"false\"><span class=\"pt-exp-study-face\">Servicios</span></button><button class=\"pt-exp-study-ring pt-exp-study-nav-tab\" type=\"button\" aria-pressed=\"true\"><span class=\"pt-exp-study-face\">Productos</span></button><button class=\"pt-exp-study-ring pt-exp-study-nav-tab\" type=\"button\" aria-pressed=\"false\"><span class=\"pt-exp-study-face\">Nosotros</span></button></div>",
+    "classes": [
+      "pt-exp-study-nav",
+      "pt-exp-study-ring",
+      "pt-exp-study-nav-tab",
+      "pt-exp-study-face"
+    ],
+    "background": "light",
+    "source": "Landing · visual study"
+  },
+  {
+    "id": "exp-study-login",
+    "category": "Nuevos estilos",
+    "name": "Soft login input",
+    "description": "Campo gris casi plano con texto centrado y un icono exterior.",
+    "html": "<label class=\"pt-exp-study-login\"><span class=\"pt-exp-study-icon\" aria-hidden=\"true\">♙</span><input class=\"pt-exp-study-login-field\" type=\"email\" placeholder=\"Correo electrónico\" aria-label=\"Correo electrónico\"></label>",
+    "classes": [
+      "pt-exp-study-login",
+      "pt-exp-study-icon",
+      "pt-exp-study-login-field"
+    ],
+    "background": "light",
+    "source": "Landing · visual study"
+  },
+  {
+    "id": "exp-study-login-actions",
+    "category": "Nuevos estilos",
+    "name": "Login action pair",
+    "description": "Acceder en plata y Registro en grafito, con radio pequeño y tipografía ligera.",
+    "html": "<div class=\"pt-exp-study-pair\"><button class=\"pt-exp-study-ring pt-exp-study-login-light\" type=\"button\" ><span class=\"pt-exp-study-face\">Acceder</span></button><button class=\"pt-exp-study-ring pt-exp-study-login-dark\" type=\"button\" ><span class=\"pt-exp-study-face\">Registro</span></button></div>",
+    "classes": [
+      "pt-exp-study-pair",
+      "pt-exp-study-ring",
+      "pt-exp-study-login-light",
+      "pt-exp-study-face",
+      "pt-exp-study-login-dark"
+    ],
+    "background": "light",
+    "source": "Landing · visual study"
+  },
+  {
+    "id": "exp-study-product-panel",
+    "category": "Nuevos estilos",
+    "name": "Product presentation panel",
+    "description": "Panel gris mate con espacio blanco para imagen y jerarquía de título y descripción.",
+    "html": "<div class=\"pt-exp-study-product-panel\"><span class=\"pt-exp-study-product-media\"></span><strong>Paix Web Builder</strong><small>Una nueva forma de crear.</small></div>",
+    "classes": [
+      "pt-exp-study-product-panel",
+      "pt-exp-study-product-media"
+    ],
+    "background": "light",
+    "source": "Landing · visual study"
+  },
+  {
+    "id": "exp-study-demo-button",
+    "category": "Nuevos estilos",
+    "name": "Two-line demo button",
+    "description": "Botón de plata con texto en dos pesos y tamaños.",
+    "html": "<button class=\"pt-exp-study-ring pt-exp-study-demo\" type=\"button\" ><span class=\"pt-exp-study-face\"><small>Solicitar</small><strong>Demostración</strong></span></button>",
+    "classes": [
+      "pt-exp-study-ring",
+      "pt-exp-study-demo",
+      "pt-exp-study-face"
+    ],
+    "background": "light",
+    "source": "Landing · visual study"
+  },
+  {
+    "id": "exp-study-service-nav",
+    "category": "Nuevos estilos",
+    "name": "Service navigation rail",
+    "description": "Pestañas integradas en una superficie gris claro de radio amplio.",
+    "html": "<div class=\"pt-exp-study-service-nav\" data-exp-group=\"single\"><button class=\"pt-exp-study-ring pt-exp-study-service-tab\" type=\"button\" aria-pressed=\"true\"><span class=\"pt-exp-study-face\">Asistentes</span></button><button class=\"pt-exp-study-ring pt-exp-study-service-tab\" type=\"button\" aria-pressed=\"false\"><span class=\"pt-exp-study-face\">Keepers</span></button><button class=\"pt-exp-study-ring pt-exp-study-service-tab\" type=\"button\" aria-pressed=\"false\"><span class=\"pt-exp-study-face\">Apps</span></button></div>",
+    "classes": [
+      "pt-exp-study-service-nav",
+      "pt-exp-study-ring",
+      "pt-exp-study-service-tab",
+      "pt-exp-study-face"
+    ],
+    "background": "light",
+    "source": "Servicios · visual study"
+  },
+  {
+    "id": "exp-study-carbon-search",
+    "category": "Nuevos estilos",
+    "name": "Carbon search bar",
+    "description": "Búsqueda hundida dentro de una bandeja negra, con anillos en gris carbón.",
+    "html": "<div class=\"pt-exp-study-ring pt-exp-study-carbon-search\" ><span class=\"pt-exp-study-face\"><span class=\"pt-exp-study-search-icon\">⌕</span><input class=\"pt-exp-study-search-field\" placeholder=\"Buscar servicios\" aria-label=\"Buscar servicios\"></span></div>",
+    "classes": [
+      "pt-exp-study-ring",
+      "pt-exp-study-carbon-search",
+      "pt-exp-study-face",
+      "pt-exp-study-search-icon",
+      "pt-exp-study-search-field"
+    ],
+    "background": "dark",
+    "source": "Servicios · visual study"
+  },
+  {
+    "id": "exp-study-carbon-compare",
+    "category": "Nuevos estilos",
+    "name": "Carbon comparison pill",
+    "description": "Cápsula negra con leve degradado y texto blanco.",
+    "html": "<button class=\"pt-exp-study-ring pt-exp-study-carbon-compare\" type=\"button\" ><span class=\"pt-exp-study-face\"><span class=\"pt-exp-study-icon\" aria-hidden=\"true\">▦</span> Comparar</span></button>",
+    "classes": [
+      "pt-exp-study-ring",
+      "pt-exp-study-carbon-compare",
+      "pt-exp-study-face",
+      "pt-exp-study-icon"
+    ],
+    "background": "dark",
+    "source": "Servicios · visual study"
+  },
+  {
+    "id": "exp-study-service-card-violet",
+    "category": "Nuevos estilos",
+    "name": "Violet service card",
+    "description": "Superficie plateada con miniatura violeta, iconografía translúcida y etiquetas. Variante de las capturas, no del tile magenta descartado.",
+    "html": "<div class=\"pt-exp-study-ring pt-exp-study-service-card\" ><span class=\"pt-exp-study-face\"><span class=\"pt-exp-study-service-art pt-exp-study-art-violet\"><span class=\"pt-exp-study-device\"><span>◇</span></span><span class=\"pt-exp-study-code-mark\">&lt;/&gt;</span></span><strong class=\"pt-exp-study-service-title pt-exp-study-title-violet\">Aplicación móvil</strong><small class=\"pt-exp-study-service-copy\">Experiencias personalizables.</small><span class=\"pt-exp-study-service-footer\"><span>iOS</span><span>Android</span><button class=\"pt-exp-study-favorite\" aria-label=\"Favorito\" aria-pressed=\"false\" type=\"button\">☆</button></span></span></div>",
+    "classes": [
+      "pt-exp-study-ring",
+      "pt-exp-study-service-card",
+      "pt-exp-study-face",
+      "pt-exp-study-service-art",
+      "pt-exp-study-art-violet",
+      "pt-exp-study-device",
+      "pt-exp-study-code-mark",
+      "pt-exp-study-service-title",
+      "pt-exp-study-title-violet",
+      "pt-exp-study-service-copy",
+      "pt-exp-study-service-footer",
+      "pt-exp-study-favorite"
+    ],
+    "background": "light",
+    "source": "Servicios · visual study"
+  },
+  {
+    "id": "exp-study-service-card-steel",
+    "category": "Nuevos estilos",
+    "name": "Steel blue service card",
+    "description": "Tarjeta plateada con miniatura azul acero, borde fino y arte translúcido.",
+    "html": "<div class=\"pt-exp-study-ring pt-exp-study-service-card\" ><span class=\"pt-exp-study-face\"><span class=\"pt-exp-study-service-art pt-exp-study-art-steel\"><span class=\"pt-exp-study-device\"><span>◇</span></span><span class=\"pt-exp-study-code-mark\">&lt;/&gt;</span></span><strong class=\"pt-exp-study-service-title pt-exp-study-title-steel\">Aplicación móvil</strong><small class=\"pt-exp-study-service-copy\">Experiencias personalizables.</small><span class=\"pt-exp-study-service-footer\"><span>iOS</span><span>Android</span><button class=\"pt-exp-study-favorite\" aria-label=\"Favorito\" aria-pressed=\"false\" type=\"button\">☆</button></span></span></div>",
+    "classes": [
+      "pt-exp-study-ring",
+      "pt-exp-study-service-card",
+      "pt-exp-study-face",
+      "pt-exp-study-service-art",
+      "pt-exp-study-art-steel",
+      "pt-exp-study-device",
+      "pt-exp-study-code-mark",
+      "pt-exp-study-service-title",
+      "pt-exp-study-title-steel",
+      "pt-exp-study-service-copy",
+      "pt-exp-study-service-footer",
+      "pt-exp-study-favorite"
+    ],
+    "background": "light",
+    "source": "Servicios · visual study"
+  },
+  {
+    "id": "exp-study-glass-device",
+    "category": "Nuevos estilos",
+    "name": "Glass device icon",
+    "description": "Silueta de dispositivo creada con varios anillos translúcidos y una cara de vidrio.",
+    "html": "<div class=\"pt-exp-study-service-art pt-exp-study-art-violet\"><span class=\"pt-exp-study-device\"><span>♡</span></span></div>",
+    "classes": [
+      "pt-exp-study-service-art",
+      "pt-exp-study-art-violet",
+      "pt-exp-study-device"
+    ],
+    "background": "dark",
+    "source": "Servicios · visual study"
+  },
+  {
+    "id": "exp-study-dark-editor",
+    "category": "Nuevos estilos",
+    "name": "Carbon editor canvas",
+    "description": "Lienzo negro de bajo contraste, con un marco gris fino y superficie interior ligeramente iluminada.",
+    "html": "<div class=\"pt-exp-study-ring pt-exp-study-editor-canvas\" ><span class=\"pt-exp-study-face\"><span class=\"pt-exp-study-editor-plane\"></span></span></div>",
+    "classes": [
+      "pt-exp-study-ring",
+      "pt-exp-study-editor-canvas",
+      "pt-exp-study-face",
+      "pt-exp-study-editor-plane"
+    ],
+    "background": "dark",
+    "source": "Paix · visual study"
+  },
+  {
+    "id": "exp-study-dark-toolrail",
+    "category": "Nuevos estilos",
+    "name": "Carbon circular tool rail",
+    "description": "Herramientas circulares hundidas, con selección en gris carbón.",
+    "html": "<div class=\"pt-exp-study-dark-rail\" data-exp-group=\"single\"><button class=\"pt-exp-study-ring pt-exp-study-dark-tool\" type=\"button\" aria-label=\"Herramienta 1\" aria-pressed=\"true\"><span class=\"pt-exp-study-face\"><span class=\"pt-exp-study-icon\" aria-hidden=\"true\">▤</span></span></button><button class=\"pt-exp-study-ring pt-exp-study-dark-tool\" type=\"button\" aria-label=\"Herramienta 2\" aria-pressed=\"false\"><span class=\"pt-exp-study-face\"><span class=\"pt-exp-study-icon\" aria-hidden=\"true\">▥</span></span></button><button class=\"pt-exp-study-ring pt-exp-study-dark-tool\" type=\"button\" aria-label=\"Herramienta 3\" aria-pressed=\"false\"><span class=\"pt-exp-study-face\"><span class=\"pt-exp-study-icon\" aria-hidden=\"true\">▦</span></span></button></div>",
+    "classes": [
+      "pt-exp-study-dark-rail",
+      "pt-exp-study-ring",
+      "pt-exp-study-dark-tool",
+      "pt-exp-study-face",
+      "pt-exp-study-icon"
+    ],
+    "background": "dark",
+    "source": "Paix · visual study"
+  },
+  {
+    "id": "exp-study-light-toolrail",
+    "category": "Nuevos estilos",
+    "name": "White circular tool rail",
+    "description": "Herramientas circulares blancas sobre superficie gris, sin sombras difusas.",
+    "html": "<div class=\"pt-exp-study-light-rail\" data-exp-group=\"single\"><button class=\"pt-exp-study-ring pt-exp-study-light-tool\" type=\"button\" aria-label=\"Herramienta 1\" aria-pressed=\"true\"><span class=\"pt-exp-study-face\"><span class=\"pt-exp-study-icon\" aria-hidden=\"true\">▤</span></span></button><button class=\"pt-exp-study-ring pt-exp-study-light-tool\" type=\"button\" aria-label=\"Herramienta 2\" aria-pressed=\"false\"><span class=\"pt-exp-study-face\"><span class=\"pt-exp-study-icon\" aria-hidden=\"true\">▥</span></span></button><button class=\"pt-exp-study-ring pt-exp-study-light-tool\" type=\"button\" aria-label=\"Herramienta 3\" aria-pressed=\"false\"><span class=\"pt-exp-study-face\"><span class=\"pt-exp-study-icon\" aria-hidden=\"true\">▦</span></span></button><button class=\"pt-exp-study-ring pt-exp-study-light-tool\" type=\"button\" aria-label=\"Herramienta 4\" aria-pressed=\"false\"><span class=\"pt-exp-study-face\"><span class=\"pt-exp-study-icon\" aria-hidden=\"true\">▣</span></span></button></div>",
+    "classes": [
+      "pt-exp-study-light-rail",
+      "pt-exp-study-ring",
+      "pt-exp-study-light-tool",
+      "pt-exp-study-face",
+      "pt-exp-study-icon"
+    ],
+    "background": "light",
+    "source": "Paix · visual study"
+  },
+  {
+    "id": "exp-study-editor-icon",
+    "category": "Nuevos estilos",
+    "name": "Square carbon tool",
+    "description": "Botón negro rectangular con esquinas de radio reducido y anillo gris al seleccionar.",
+    "html": "<button class=\"pt-exp-study-ring pt-exp-study-editor-icon\" type=\"button\" aria-label=\"Deshacer\" aria-pressed=\"true\"><span class=\"pt-exp-study-face\"><span class=\"pt-exp-study-icon\" aria-hidden=\"true\">↶</span></span></button>",
+    "classes": [
+      "pt-exp-study-ring",
+      "pt-exp-study-editor-icon",
+      "pt-exp-study-face",
+      "pt-exp-study-icon"
+    ],
+    "background": "light",
+    "source": "Paix · visual study"
+  },
+  {
+    "id": "exp-study-device-switch",
+    "category": "Nuevos estilos",
+    "name": "Device mode switch",
+    "description": "Selector de dispositivo con dos opciones integradas y negro como contraste.",
+    "html": "<div class=\"pt-exp-study-device-switch\" data-exp-group=\"single\"><button class=\"pt-exp-study-ring pt-exp-study-device-mode\" type=\"button\" aria-label=\"Móvil\" aria-pressed=\"false\"><span class=\"pt-exp-study-face\"><span class=\"pt-exp-study-icon\" aria-hidden=\"true\">▯</span></span></button><button class=\"pt-exp-study-ring pt-exp-study-device-mode\" type=\"button\" aria-label=\"Escritorio\" aria-pressed=\"true\"><span class=\"pt-exp-study-face\"><span class=\"pt-exp-study-icon\" aria-hidden=\"true\">▭</span></span></button></div>",
+    "classes": [
+      "pt-exp-study-device-switch",
+      "pt-exp-study-ring",
+      "pt-exp-study-device-mode",
+      "pt-exp-study-face",
+      "pt-exp-study-icon"
+    ],
+    "background": "light",
+    "source": "Paix · visual study"
+  },
+  {
+    "id": "exp-study-library-tray",
+    "category": "Nuevos estilos",
+    "name": "Silver library cells",
+    "description": "Celdas claras con un degradado diagonal y una celda de mayor tamaño, extraídas del inspector.",
+    "html": "<div class=\"pt-exp-study-library\"><div class=\"pt-exp-study-ring pt-exp-study-library-cell\" ><span class=\"pt-exp-study-face\"></span></div><div class=\"pt-exp-study-ring pt-exp-study-library-cell\" ><span class=\"pt-exp-study-face\"></span></div><div class=\"pt-exp-study-ring pt-exp-study-library-cell\" ><span class=\"pt-exp-study-face\"></span></div></div>",
+    "classes": [
+      "pt-exp-study-library",
+      "pt-exp-study-ring",
+      "pt-exp-study-library-cell",
+      "pt-exp-study-face"
+    ],
+    "background": "light",
+    "source": "Paix · visual study"
+  },
+  {
+    "id": "exp-study-command-palette",
+    "category": "Nuevos estilos",
+    "name": "Carbon command tile",
+    "description": "Botón oscuro de la paleta de nodos, tipografía e icono cromáticos sobre fondo carbón.",
+    "html": "<div class=\"pt-exp-study-command-group\" data-exp-group=\"single\"><button class=\"pt-exp-study-ring pt-exp-study-command-tile\" type=\"button\" aria-pressed=\"false\"><span class=\"pt-exp-study-face\"><strong>ƒx</strong><small>Funct</small></span></button><button class=\"pt-exp-study-ring pt-exp-study-command-tile\" type=\"button\" aria-pressed=\"true\"><span class=\"pt-exp-study-face\"><strong>?</strong><small>If</small></span></button></div>",
+    "classes": [
+      "pt-exp-study-command-group",
+      "pt-exp-study-ring",
+      "pt-exp-study-command-tile",
+      "pt-exp-study-face"
+    ],
+    "background": "dark",
+    "source": "Paix · visual study"
+  },
+  {
+    "id": "exp-study-split-selection",
+    "category": "Nuevos estilos",
+    "name": "Violet split selection",
+    "description": "Dos regiones de lienzo morado profundo, divididas por un anillo metálico.",
+    "html": "<div class=\"pt-exp-study-split\"><span class=\"pt-exp-study-split-cell\"></span><span class=\"pt-exp-study-split-cell\"></span></div>",
+    "classes": [
+      "pt-exp-study-split",
+      "pt-exp-study-split-cell"
+    ],
+    "background": "light",
+    "source": "Paix · visual study"
+  },
+  {
+    "id": "exp-study-split-popover",
+    "category": "Nuevos estilos",
+    "name": "Split settings popover",
+    "description": "Control morado translúcido compacto, con selección de unidad, valor y botones redondos.",
+    "html": "<div class=\"pt-exp-study-split\"><span class=\"pt-exp-study-split-cell\"></span><span class=\"pt-exp-study-split-cell\"></span><div class=\"pt-exp-study-split-popover\"><label>Unit: <select aria-label=\"Unidad\"><option>Percent</option><option>Pixels</option></select></label><input type=\"number\" value=\"2\" min=\"1\" aria-label=\"Valor\"><span class=\"pt-exp-study-pair\"><button class=\"pt-exp-study-ring pt-exp-study-split-action\" type=\"button\" aria-label=\"Cancelar\"><span class=\"pt-exp-study-face\">×</span></button><button class=\"pt-exp-study-ring pt-exp-study-split-action\" type=\"button\" aria-label=\"Confirmar\"><span class=\"pt-exp-study-face\">✓</span></button></span></div></div>",
+    "classes": [
+      "pt-exp-study-split",
+      "pt-exp-study-split-cell",
+      "pt-exp-study-split-popover",
+      "pt-exp-study-pair",
+      "pt-exp-study-ring",
+      "pt-exp-study-split-action",
+      "pt-exp-study-face"
+    ],
+    "background": "light",
+    "source": "Paix · visual study"
+  },
+  {
+    "id": "exp-study-color-field",
+    "category": "Nuevos estilos",
+    "name": "Smart Colors field",
+    "description": "Campo de saturación y valor con degradados superpuestos y un cursor circular arrastrable mediante rango.",
+    "html": "<div class=\"pt-exp-study-color-panel\"><small>Smart Colors</small><label class=\"pt-exp-study-color-field\"><input class=\"pt-exp-study-color-range\" type=\"range\" min=\"0\" max=\"100\" value=\"85\" aria-label=\"Saturación\"></label><input class=\"pt-exp-study-hue\" type=\"range\" min=\"0\" max=\"360\" value=\"195\" aria-label=\"Matiz\"></div>",
+    "classes": [
+      "pt-exp-study-color-panel",
+      "pt-exp-study-color-field",
+      "pt-exp-study-color-range",
+      "pt-exp-study-hue"
+    ],
+    "background": "light",
+    "source": "Paix · visual study"
+  },
+  {
+    "id": "exp-study-chat-search",
+    "category": "Nuevos estilos",
+    "name": "Silvana capsule bar",
+    "description": "Cápsula blanca larga de bajo relieve con un botón circular integrado.",
+    "html": "<div class=\"pt-exp-study-ring pt-exp-study-chat-search\" ><span class=\"pt-exp-study-face\"><input class=\"pt-exp-study-chat-search-input\" placeholder=\"Buscar\" aria-label=\"Buscar conversaciones\"><button class=\"pt-exp-study-ring pt-exp-study-chat-search-action\" type=\"button\" aria-label=\"Buscar\"><span class=\"pt-exp-study-face\">⌕</span></button></span></div>",
+    "classes": [
+      "pt-exp-study-ring",
+      "pt-exp-study-chat-search",
+      "pt-exp-study-face",
+      "pt-exp-study-chat-search-input",
+      "pt-exp-study-chat-search-action"
+    ],
+    "background": "light",
+    "source": "Silvana · visual study"
+  },
+  {
+    "id": "exp-study-chat-list",
+    "category": "Nuevos estilos",
+    "name": "Silvana conversation card",
+    "description": "Tarjeta de conversación blanca a gris con icono rectangular de baja profundidad.",
+    "html": "<button class=\"pt-exp-study-ring pt-exp-study-chat-list\" type=\"button\" aria-pressed=\"false\"><span class=\"pt-exp-study-face\"><span class=\"pt-exp-study-chat-avatar\"></span><span>What are tensors?</span></span></button>",
+    "classes": [
+      "pt-exp-study-ring",
+      "pt-exp-study-chat-list",
+      "pt-exp-study-face",
+      "pt-exp-study-chat-avatar"
+    ],
+    "background": "light",
+    "source": "Silvana · visual study"
+  },
+  {
+    "id": "exp-study-chat-panel",
+    "category": "Nuevos estilos",
+    "name": "Silvana charcoal panel",
+    "description": "Panel de conversación con gradiente carbón radial y esquinas amplias.",
+    "html": "<div class=\"pt-exp-study-ring pt-exp-study-chat-panel\" ><span class=\"pt-exp-study-face\"><span>Iniciar una <strong>conversación</strong></span><small>Describe tu solicitud</small></span></div>",
+    "classes": [
+      "pt-exp-study-ring",
+      "pt-exp-study-chat-panel",
+      "pt-exp-study-face"
+    ],
+    "background": "light",
+    "source": "Silvana · visual study"
+  },
+  {
+    "id": "exp-study-chat-picker",
+    "category": "Nuevos estilos",
+    "name": "Silvana icon picker",
+    "description": "Iconos grises seleccionables sobre una bandeja carbón; el seleccionado usa luz blanca en fondo oscuro.",
+    "html": "<div class=\"pt-exp-study-chat-picker\" data-exp-group=\"single\"><button class=\"pt-exp-study-ring pt-exp-study-chat-picker-icon\" type=\"button\" aria-label=\"Icono 1\" aria-pressed=\"true\"><span class=\"pt-exp-study-face\"><span class=\"pt-exp-study-icon\" aria-hidden=\"true\">⌕</span></span></button><button class=\"pt-exp-study-ring pt-exp-study-chat-picker-icon\" type=\"button\" aria-label=\"Icono 2\" aria-pressed=\"false\"><span class=\"pt-exp-study-face\"><span class=\"pt-exp-study-icon\" aria-hidden=\"true\">♫</span></span></button><button class=\"pt-exp-study-ring pt-exp-study-chat-picker-icon\" type=\"button\" aria-label=\"Icono 3\" aria-pressed=\"false\"><span class=\"pt-exp-study-face\"><span class=\"pt-exp-study-icon\" aria-hidden=\"true\">★</span></span></button><button class=\"pt-exp-study-ring pt-exp-study-chat-picker-icon\" type=\"button\" aria-label=\"Icono 4\" aria-pressed=\"false\"><span class=\"pt-exp-study-face\"><span class=\"pt-exp-study-icon\" aria-hidden=\"true\">◉</span></span></button><button class=\"pt-exp-study-ring pt-exp-study-chat-picker-icon\" type=\"button\" aria-label=\"Icono 5\" aria-pressed=\"false\"><span class=\"pt-exp-study-face\"><span class=\"pt-exp-study-icon\" aria-hidden=\"true\">◷</span></span></button><button class=\"pt-exp-study-ring pt-exp-study-chat-picker-icon\" type=\"button\" aria-label=\"Icono 6\" aria-pressed=\"false\"><span class=\"pt-exp-study-face\"><span class=\"pt-exp-study-icon\" aria-hidden=\"true\">✦</span></span></button><button class=\"pt-exp-study-ring pt-exp-study-chat-picker-icon\" type=\"button\" aria-label=\"Icono 7\" aria-pressed=\"false\"><span class=\"pt-exp-study-face\"><span class=\"pt-exp-study-icon\" aria-hidden=\"true\">◇</span></span></button><button class=\"pt-exp-study-ring pt-exp-study-chat-picker-icon\" type=\"button\" aria-label=\"Icono 8\" aria-pressed=\"false\"><span class=\"pt-exp-study-face\"><span class=\"pt-exp-study-icon\" aria-hidden=\"true\">+</span></span></button></div>",
+    "classes": [
+      "pt-exp-study-chat-picker",
+      "pt-exp-study-ring",
+      "pt-exp-study-chat-picker-icon",
+      "pt-exp-study-face",
+      "pt-exp-study-icon"
+    ],
+    "background": "dark",
+    "source": "Silvana · visual study"
+  },
+  {
+    "id": "exp-study-chat-textarea",
+    "category": "Nuevos estilos",
+    "name": "Silvana carbon textarea",
+    "description": "Campo de texto oscuro con anillo de gris a carbón y radio generoso, sin redimensionamiento.",
+    "html": "<div class=\"pt-exp-study-ring pt-exp-study-chat-textarea\" ><span class=\"pt-exp-study-face\"><textarea aria-label=\"Solicitud\" placeholder=\"Ordénale algo a Silvana...\"></textarea></span></div>",
+    "classes": [
+      "pt-exp-study-ring",
+      "pt-exp-study-chat-textarea",
+      "pt-exp-study-face"
+    ],
+    "background": "dark",
+    "source": "Silvana · visual study"
+  },
+  {
+    "id": "exp-study-chat-start",
+    "category": "Nuevos estilos",
+    "name": "Silvana start button",
+    "description": "Botón carbón de borde fino con glifo de Pair Regular y texto ligero.",
+    "html": "<button class=\"pt-exp-study-ring pt-exp-study-chat-start\" type=\"button\" ><span class=\"pt-exp-study-face\"><span class=\"pt-exp-study-gear\" aria-hidden=\"true\">A</span> Comenzar chat</span></button>",
+    "classes": [
+      "pt-exp-study-ring",
+      "pt-exp-study-chat-start",
+      "pt-exp-study-face",
+      "pt-exp-study-gear"
+    ],
+    "background": "dark",
+    "source": "Silvana · visual study"
+  },
+  {
+    "id": "exp-study-circular-button",
+    "category": "Nuevos estilos",
+    "name": "Neumorphic circular button",
+    "description": "Botón circular de carbón con anillos concéntricos sólidos y núcleo cuadrado redondeado, de relieve plateado, con icono intercambiable.",
+    "html": "<button class=\"pt-exp-study-ring pt-exp-study-circular-button\" type=\"button\" aria-pressed=\"false\" aria-label=\"Herramientas\"><span class=\"pt-exp-study-face\"><span class=\"pt-exp-study-circular-core\"><span class=\"pt-exp-study-circular-core-face\"><svg viewBox=\"0 0 24 24\" width=\"19\" height=\"19\" fill=\"currentColor\" aria-hidden=\"true\"><rect x=\"3\" y=\"3\" width=\"8\" height=\"8\" rx=\"2\"/><rect x=\"13\" y=\"3\" width=\"8\" height=\"8\" rx=\"2\"/><rect x=\"3\" y=\"13\" width=\"8\" height=\"8\" rx=\"2\"/><rect x=\"13\" y=\"13\" width=\"8\" height=\"8\" rx=\"2\"/></svg></span></span></span></button>",
+    "classes": [
+      "pt-exp-study-ring",
+      "pt-exp-study-circular-button",
+      "pt-exp-study-face",
+      "pt-exp-study-circular-core",
+      "pt-exp-study-circular-core-face"
+    ],
+    "background": "light",
+    "source": "Silvana · visual study"
+  }
+]

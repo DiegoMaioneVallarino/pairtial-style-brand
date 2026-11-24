@@ -1,0 +1,26 @@
+/* Opt-in graphite adaptation; original palette stays unchanged. */
+[data-pt-theme="dark"] {
+ color-scheme: dark;
+ --pt-bg-app: #202020; --pt-bg-surface: #292929; --pt-bg-sunken: #151515;
+ --pt-text: #eeeeee; --pt-text-muted: #b5b5b5;
+ --pt-grad-page: linear-gradient(152deg,#383838,#202020);
+ --pt-grad-page-dark: linear-gradient(#101010,#292929);
+ --pt-grad-soft: linear-gradient(114deg,#252525,#414141);
+ --pt-grad-surface: linear-gradient(0deg,#262626,#454545);
+ --pt-grad-surface-hi: linear-gradient(0deg,#252525,#3b3b3b);
+ --pt-grad-sunken: linear-gradient(0deg,#303030,#131313);
+ --pt-grad-input: linear-gradient(180deg,#151515,#303030);
+ --pt-layer-border: linear-gradient(0deg,#151515,#626262);
+ --pt-card-fill: linear-gradient(130deg,#242424,#414141,#353535);
+ --pt-card-edge: inset 0 0 0 1px #ffffff22,0 0 0 1px #0008;
+ --pt-shadow-neu: 8px 11px 21px #0005,-9px -6px 21px #ffffff09;
+ --pt-shadow-edge-hi: inset 0 0 0 1px #ffffff22;
+ --pt-shadow-edge: 0 0 0 1px #ffffff29;
+ --pt-halo: var(--pt-halo-dark);
+ --pt-glass-fill: #292929a8;
+ --pt-input-text: #ededed; --pt-input-placeholder: #b5b5b5;
+}
+[data-pt-theme="dark"] .pt-btn:not(.pt-btn--black):not(.pt-btn--select):not(.pt-btn--dark) { color: var(--pt-text); box-shadow: var(--pt-shadow-edge); }
+[data-pt-theme="dark"] .pt-node__title { background-image: linear-gradient(45deg,#fff,var(--pt-node,#aaa)); }
+[data-pt-theme="dark"] .pt-nav-item { color: var(--pt-text); background: none; filter: none; }
+[data-pt-theme="dark"] .pt-nav-item.is-selected { color: #111; background: #eee; }
