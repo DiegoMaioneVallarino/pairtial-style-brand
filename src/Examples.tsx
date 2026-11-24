@@ -2,6 +2,7 @@ import { useState, type CSSProperties, type ReactNode } from 'react';
 import catalog from './catalog.json';
 import examples from './examples.json';
 import './examples.css';
+import RandomComposition from './RandomComposition';
 
 import { Shop, Finance, SmartHome, Tasks, Calendar, AudioMixer } from './NewExamples';
 
@@ -73,5 +74,5 @@ export default function Examples({query,onStyle}:{query:string;onStyle:(item:Ite
  const [category,setCategory]=useState('Todos');const [expanded,setExpanded]=useState<string|null>(null);
  const q=query.trim().toLowerCase();const filtered=examples.filter(x=>(category==='Todos'||x.category===category)&&`${x.name} ${x.description} ${x.category} ${x.styles.map(id=>byId.get(id)?.name||'').join(' ')}`.toLowerCase().includes(q));
  const focus=filtered.find(x=>x.id===expanded);const shown=focus?[focus]:filtered;
- return <section className="examples-section"><div className="ex-filter"><div className="ex-filter-options">{['Todos',...new Set(examples.map(x=>x.category))].map(c=><button key={c} className="plain-button" aria-pressed={category===c} onClick={()=>{setCategory(c);setExpanded(null);}}>{c}</button>)}</div><small>{shown.length} composiciones · demostraciones locales</small></div><div className={`examples-grid ${focus?'ex-expanded':''}`}>{shown.map(x=><ExampleCard key={x.id} example={x} onStyle={onStyle} wide={Boolean(focus)} onExpand={()=>setExpanded(focus?null:x.id)}/>)}</div>{!shown.length&&<div className="empty">No hay composiciones para esta búsqueda.</div>}</section>;
+ return <section className="examples-section"><div className="ex-filter"><div className="ex-filter-options">{['Todos',...new Set(examples.map(x=>x.category))].map(c=><button key={c} className="plain-button" aria-pressed={category===c} onClick={()=>{setCategory(c);setExpanded(null);}}>{c}</button>)}</div><small>{shown.length} composiciones · demostraciones locales</small></div><div className={`examples-grid ${focus?'ex-expanded':''}`}>{shown.map(x=><ExampleCard key={x.id} example={x} onStyle={onStyle} wide={Boolean(focus)} onExpand={()=>setExpanded(focus?null:x.id)}/>)}{!focus&&<RandomComposition/>}</div>{!shown.length&&<div className="empty">No hay composiciones para esta búsqueda.</div>}</section>;
 }

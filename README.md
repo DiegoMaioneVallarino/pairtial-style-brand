@@ -1,4 +1,4 @@
-# Pairtial Style Brand — 0.4.2
+# Pairtial Style Brand — 0.4.3
 
 Catálogo unificado de 91 estilos: los 49 originales y 42 incorporados del archivo visual. React + TypeScript + Vite y servidor Node. Un solo catálogo; cada tarjeta conserva la versión de origen. Colores, gradientes y tokens son referencias independientes de los 91 ejemplos.
 
@@ -97,3 +97,11 @@ La sección Implementaciones → Ejemplos contiene siete composiciones React int
 - **Secuenciador rítmico**: Construye patrones de ocho pasos, silencia canales y ajusta el tempo visual. No reproduce audio.
 - **Estancias boutique**: Compara habitaciones ilustradas, ajusta noches y huéspedes y calcula una estancia ficticia.
 - **Preparación de impresión**: Ajusta formato, acabado, margen y copias de una prueba gráfica simulada.
+
+## v0.4.3 — Random composition engine
+
+Al final de Ejemplos aparece **Random composition**. Abre una ventana modal con una cuadrícula 12 × 8 y 3–9 módulos. Generar otra cambia distribución, materiales y widgets; Reorganizar divs cambia solo las posiciones y tamaños. La semilla permite repetir una generación inicial con la misma cantidad de módulos. El JSON es la fuente exacta para restaurar una exploración modificada.
+
+Exportar JSON descarga un archivo; Cargar JSON valida y restaura la composición. Guardar local / Recuperar local conservan una exploración en el navegador (la siguiente guardada reemplaza la anterior). Ver JSON muestra el documento actual. Se guardan fondo, semilla, posiciones, materiales, widgets y valores/textos. No se ejecuta HTML ni CSS importado. No hay servicios externos.
+
+Motor puro: `src/composition-engine.mjs`; tipos: `src/composition-engine.d.mts`; ventana y renderizador: `src/RandomComposition.tsx`; distribución: `src/random-composition.css`. Los 91 estilos aprobados y las 28 demos anteriores se conservan; el generador no es un estilo adicional.

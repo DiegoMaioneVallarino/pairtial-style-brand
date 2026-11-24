@@ -1,0 +1,16 @@
+export type Background = 'bg-white'|'bg-silver'|'bg-carbon'|'bg-grid';
+export type Material = 'layer'|'layer-dark'|'soft'|'card'|'card-black'|'sunken'|'dark-panel'|'exp-active'|'exp-running';
+export type Widget = 'metric'|'chart'|'slider'|'toggle'|'actions'|'list'|'typography'|'input';
+export type Rect = {x:number;y:number;w:number;h:number};
+export type Block = Rect & {id:string;material:Material;widget:Widget;title:string;value:number;text:string};
+export type Composition = {version:1;seed:number;background:Background;grid:{columns:12;rows:8};blocks:Block[]};
+export const VERSION:1;
+export const GRID:Readonly<{columns:12;rows:8}>;
+export const BACKGROUNDS:readonly Background[];
+export const MATERIALS:readonly Material[];
+export const WIDGETS:readonly Widget[];
+export function rng(seed:number):()=>number;
+export function layout(seed:number,count:number):Rect[];
+export function generate(seed:number,count?:number):Composition;
+export function reshuffle(document:Composition,seed:number):Composition;
+export function parseComposition(raw:string):Composition;

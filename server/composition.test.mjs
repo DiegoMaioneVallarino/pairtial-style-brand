@@ -1,0 +1,12 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import {generate,layout,reshuffle,parseComposition,MATERIALS,BACKGROUNDS} from '../src/composition-engine.mjs';
+const clone=doc=>JSON.parse(JSON.stringify(doc));
+test('generated grids tile the canvas without overlaps or holes across 14000 compositions',()=>{
+ for(let seed=0;seed<2000;seed++)for(let count=3;count<=9;count++){const doc=generate(seed,count);assert.equal(doc.blocks.length,count);assert.deepEqual(parseComposition(JSON.stringify(doc)),doc);}
+});
+test('generation is deterministic and seeds vary geometry',()=>{assert.deepEqual(generate(42,6),generate(42,6));assert.ok(new Set(Array.from({length:30},(_,i)=>JSON.stringify(layout(i,6)))).size>20);});
+test('reshuffle changes geometry only and preserves interactive data',()=>{const old=generate(42,7);old.blocks[0].text='Example';old.blocks[0].value=9;const next=reshuffle(old,100);assert.notDeepEqual(next.blocks.map(({x,y,w,h})=>({x,y,w,h})),old.blocks.map(({x,y,w,h})=>({x,y,w,h})));const data=({x,y,w,h,...b})=>b;assert.deepEqual(next.blocks.map(data),old.blocks.map(data));assert.equal(next.background,old.background);assert.deepEqual(parseComposition(JSON.stringify(next)),next);});
+test('import rejects unsupported or malformed compositions without executable markup',()=>{const doc=generate(123,6);for(const mutate of [d=>d.version=99,d=>d.background='unknown',d=>d.grid.columns=999,d=>d.blocks[0].material='arbitrary-css',d=>d.blocks[0].widget='script',d=>d.blocks[0].x=-1,d=>d.blocks[0].value=101,d=>d.blocks[1].id=d.blocks[0].id,d=>Object.assign(d.blocks[1],{x:d.blocks[0].x,y:d.blocks[0].y,w:d.blocks[0].w,h:d.blocks[0].h}),d=>d.blocks[0].title='x'.repeat(61),d=>d.blocks.pop()]){const bad=clone(doc);mutate(bad);assert.throws(()=>parseComposition(JSON.stringify(bad)),/inválida/);}assert.throws(()=>parseComposition('{'),/inválida/);const withExtra=clone(doc);withExtra.blocks[0].html='<script>alert(1)</script>';assert.deepEqual(parseComposition(JSON.stringify(withExtra)),doc);});
+test('generator references approved materials and is mounted after existing demos',async()=>{const catalog=JSON.parse(await readFile(new URL('../src/catalog.json',import.meta.url),'utf8'));for(const id of [...MATERIALS,...BACKGROUNDS])assert.ok(catalog.some(x=>x.id===id),id);const source=await readFile(new URL('../src/Examples.tsx',import.meta.url),'utf8');assert.match(source,/shown\.map[\s\S]*?\{!focus&&<RandomComposition\/>\}/);});
